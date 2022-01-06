@@ -25,7 +25,7 @@ export default class calculator {
      * Inicializáld a tömböt, legyen legalább két eleme.
      * @type {Array} products - minden elem egy termék.
      */    
-    products: Array<{name: string, price: number, stock: number, active: boolean}> = [
+    products: Array<{name: string, price: number, stock: number, active?: boolean}> = [
         {name: "product", price: 3, stock: 10, active: true}
     ];
     
